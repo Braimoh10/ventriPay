@@ -31,6 +31,9 @@ import CoreIcon3 from "./coreIcon3.svg"
 import CoreIcon4 from "./coreIcon5.svg"
 import CoreIcon5 from "./coreIcon5.svg"
 import CoreIcon6 from "./coreIcon6.svg"
+import RegisterIcon from "./Group.png"
+import StarIcon from "./Star.png"
+import transactIcon from "./Vector-1.png"
 
 export {
     phoneIcon,
@@ -66,4 +69,7 @@ export {
     CoreIcon4,
     CoreIcon5,
     CoreIcon6,
+    RegisterIcon,
+    StarIcon,
+    transactIcon,
 }

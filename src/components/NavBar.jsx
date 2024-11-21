@@ -14,10 +14,10 @@ const NavBar = () => {
 
   return (
     <header
-      className="w-full sm:px-16"
+      className="w-full lg:px-16"
       style={{ position: "fixed", width: "100%", backgroundColor: "#fff", height:"70px", zIndex:1000 }}
     >
-      <nav className="flex justify-between max-container px-4 items-center">
+      <nav className="flex justify-between max-container px-4 md:px-6 items-center">
         <Link to="/" className="text-[30px]">
           <img src={logo} style={{ height: "50%", width: "70px" }} alt="logo" />
         </Link>
