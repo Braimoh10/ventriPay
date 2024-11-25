@@ -10,6 +10,14 @@ import Product2 from './productImg3.png'
 import Product3 from './productImg2.png'
 import Product4 from './productImg1.png'
 import Product5 from './productImg5.png'
+import Service1 from './serviceImg1.jpeg'
+import Service2 from './serviceImg2.jpeg'
+import Service3 from './serviceImg3.jpeg'
+import Service4 from './serviceImg4.jpeg'
+import Service5 from './serviceImg5.jpeg'
+import Service6 from './serviceImg6.jpeg'
+import Service7 from './serviceImg7.jpeg'
+import Service8 from './serviceImg8.jpeg'
 export{
     heroImg,
     backgroundImg1,
@@ -23,4 +31,12 @@ export{
     Product3,
     Product4,
     Product5,
+    Service1,
+    Service2,
+    Service3,
+    Service4,
+    Service5,
+    Service6,
+    Service7,
+    Service8
 }

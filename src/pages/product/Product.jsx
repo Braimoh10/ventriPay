@@ -16,7 +16,7 @@ import {
   Product5,
   ProductBackground,
 } from "../../assets/images";
-import { Link } from "react-router-dom";
+
 import { trustedIcons } from "../../data";
 import PartnersCard from "../../components/PartnersCard";
 
@@ -146,10 +146,10 @@ const Product = () => {
       <section className="py-5">
         <div className="max-container mx-8 lg:mx-32">
           <div>
-            <h1 className="text-2xl font-bold text-center mb-8">
+            <h1 className="text-md md:text-2xl font-bold text-center mb-8">
               our features and services
             </h1>
-            <div className="bg-[#008080] flex flex-col lg:flex-row space-y-3 lg:space-y-0  lg:space-x-5 p-4 lg:py-10 lg:px-14">
+            <div className="bg-[#008080] lg:flex space-y-3 lg:space-y-0  lg:space-x-5 py-4 px-4 lg:py-10 lg:px-14">
               <div className="lg:w-2/4">
                 <h2 className="uppercase font-bold">
                   fund your account, make transfers,
@@ -166,7 +166,7 @@ const Product = () => {
                 </p>
               </div>
 
-              <div className="lg:w-2/5">
+              <div className="lg:w-2/4 ">
                 <img src={Product1} alt="" className="" />
               </div>
             </div>
@@ -176,8 +176,8 @@ const Product = () => {
 
       <section className="py-5">
         <div className="max-container mx-8 lg:mx-32">
-          <div className=" flex flex-col lg:flex-row space-y-3 lg:space-y-0  lg:space-x-5 p-4 lg:py-10 lg:px-14">
-            <div className="lg:w-2/5">
+          <div className=" flex flex-col-reverse lg:flex-row space-y-3 lg:space-y-0  lg:space-x-5 p-4 lg:py-10 lg:px-14">
+            <div className="lg:w-2/4">
               <img src={Product2} alt="" className="" />
             </div>
             <div className="lg:w-2/4">
@@ -202,7 +202,7 @@ const Product = () => {
       
       <section className="py-5">
         <div className="max-container mx-8 lg:mx-32">
-          <div className=" flex flex-col space-y-3 lg:space-y-0  lg:flex-row lg:space-x-5 p-4 lg:py-10 lg:px-14">
+          <div className=" lg:flex space-y-3 lg:space-y-0 lg:space-x-5 p-4 lg:py-10 lg:px-14">
             <div className="lg:w-2/4">
               <h2 className="uppercase font-bold">
                 fund your account, make transfers,
@@ -218,7 +218,7 @@ const Product = () => {
                 Adipisci, est?
               </p>
             </div>
-            <div className="lg:w-2/5">
+            <div className="lg:w-2/4">
               <img src={Product3} alt="" className="" />
             </div>
           </div>
@@ -227,7 +227,7 @@ const Product = () => {
 
       <section className="py-5 bg-[#008080]">
         <div className="max-container mx-8 lg:mx-32">
-          <div className=" flex flex-col space-y-3 lg:space-y-0  lg:flex-row lg:space-x-5 p-4 lg:py-10 lg:px-14">
+          <div className=" lg:flex space-y-3 lg:space-y-0  lg:space-x-5 p-4 lg:py-10 lg:px-14">
             <div className="lg:w-2/4">
               <h2 className="uppercase font-bold">
                 fund your account, make transfers,
@@ -243,11 +243,11 @@ const Product = () => {
                 Adipisci, est?
               </p>
             </div>
-            <div className="lg:w-2/5">
+            <div className="lg:w-2/4">
               <img src={Product4} alt="" className="" />
             </div>
           </div>
-          <div className=" flex flex-col space-y-3 lg:space-y-0  lg:flex-row lg:space-x-5 p-4 lg:py-10 lg:px-14">
+          <div className=" lg:flex space-y-3 lg:space-y-0  lg:space-x-5 p-4 lg:py-10 lg:px-14">
             <div className="lg:w-2/4">
               <h2 className="uppercase font-bold">
                 fund your account, make transfers,
@@ -263,7 +263,7 @@ const Product = () => {
                 Adipisci, est?
               </p>
             </div>
-            <div className="lg:w-2/5">
+            <div className="lg:w-2/4">
               <img src={Product5} alt="" className="" />
             </div>
           </div>

@@ -72,7 +72,7 @@ const About_Us = () => {
         <div className="max-container">
           <article className="flex flex-col justify-center items-center ">
             <h1 className="text-2xl font-bold mb-6">
-              our<span className="text-vision-color">core strengths</span>
+              our<span className="text-vision-color"> core strengths</span>
             </h1>
             <div className="text-center w-full md:w-4/5">
               <p className="text-md md:text-lg leading-7">
