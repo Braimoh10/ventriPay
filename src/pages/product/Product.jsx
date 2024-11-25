@@ -16,7 +16,7 @@ import {
   Product5,
   ProductBackground,
 } from "../../assets/images";
-
+import { Link } from "react-router-dom";
 import { trustedIcons } from "../../data";
 import PartnersCard from "../../components/PartnersCard";
 
@@ -146,25 +146,22 @@ const Product = () => {
       <section className="py-5">
         <div className="max-container mx-8 lg:mx-32">
           <div>
-            <h1 className="text-md md:text-2xl font-bold text-center mb-8">
+            <h1 className="text-2xl font-bold text-center mb-8">
               our features and services
             </h1>
-            <div className="bg-[#008080] lg:flex space-y-3 lg:space-y-0  lg:space-x-5 py-4 px-4 lg:py-10 lg:px-14">
-              <div className="lg:w-2/4">
-                <h2 className="uppercase font-bold">
+            <div className="bg-[#008080] flex flex-col md:flex-row space-y-3 md:space-y-0  md:space-x-5 p-4 md:py-10 md:px-14">
+              <div className="md:w-2/4 lg:pt-16 lg:pr-20 ">
+                <h2 className="uppercase font-bold text-md lg:text-lg">
                   FUND YOUR ACCOUNT, MAKE TRANSFERS,
-                  <br />
                   PAY BILLS WITH VENTRIPAY
                 </h2>
-                <p>
-                  Transfer funds Quickly, easily, and confidently with our seamless and reliable feature. 
+                <p className="text-md lg:text-lg">
+                  Transfer funds Quickly, easily, and confidently with our seamless and reliable feature. You can pay for your utility bills as well 
                 </p>
-                <p>
-                You can pay for your utility bills as well 
-                </p>
+               
               </div>
 
-              <div className="lg:w-2/4 ">
+              <div className="md:w-2/4">
                 <img src={Product1} alt="" className="" />
               </div>
             </div>
@@ -174,16 +171,16 @@ const Product = () => {
 
       <section className="py-5">
         <div className="max-container mx-8 lg:mx-32">
-          <div className=" flex flex-col-reverse lg:flex-row space-y-3 lg:space-y-0  lg:space-x-5 p-4 lg:py-10 lg:px-14">
-            <div className="lg:w-2/4">
+          <div className=" flex flex-col-reverse md:flex-row space-y-3 md:space-y-0  md:space-x-5 p-4 md:py-10 md:px-14">
+            <div className="md:w-2/4">
               <img src={Product2} alt="" className="" />
             </div>
-            <div className="lg:w-2/4">
+            <div className="md:w-2/4 lg:pt-16 lg:pl-20">
               <h2 className="uppercase font-bold">
                 GET A VIRTUAL CARD WITH VENTRIPAY
                 
               </h2>
-              <p>
+              <p className="mb-4"> 
               Introducing virtual card for your online payments Enjoy convenience and control. Compatible with popular online platforms.
               </p>
              
@@ -195,8 +192,8 @@ const Product = () => {
       
       <section className="py-5">
         <div className="max-container mx-8 lg:mx-32">
-          <div className=" lg:flex space-y-3 lg:space-y-0 lg:space-x-5 p-4 lg:py-10 lg:px-14">
-            <div className="lg:w-2/4">
+          <div className=" flex flex-col space-y-3 md:space-y-0  md:flex-row md:space-x-5 p-4 md:py-10 md:px-14">
+            <div className="md:w-2/4 lg:pr-20 lg:pt-14" >
               <h2 className="uppercase font-bold">
                 CURRENCY EXCHANGE
                 
@@ -206,7 +203,7 @@ const Product = () => {
               </p>
               
             </div>
-            <div className="lg:w-2/4">
+            <div className="md:w-2/4">
               <img src={Product3} alt="" className="" />
             </div>
           </div>
@@ -215,8 +212,8 @@ const Product = () => {
 
       <section className="py-5 bg-[#008080]">
         <div className="max-container mx-8 lg:mx-32">
-          <div className=" lg:flex space-y-3 lg:space-y-0  lg:space-x-5 p-4 lg:py-10 lg:px-14">
-            <div className="lg:w-2/4">
+          <div className=" flex flex-col space-y-3 md:space-y-0  md:flex-row md:space-x-5 p-4 md:py-10 md:px-14">
+            <div className="md:w-2/4">
               <h2 className="uppercase font-bold">
                 DATA SECURITY AND PRIVACY
               </h2>
@@ -225,12 +222,12 @@ const Product = () => {
               </p>
             
             </div>
-            <div className="lg:w-2/4">
+            <div className="md:w-2/4">
               <img src={Product4} alt="" className="" />
             </div>
           </div>
-          <div className=" lg:flex space-y-3 lg:space-y-0  lg:space-x-5 p-4 lg:py-10 lg:px-14">
-            <div className="lg:w-2/4">
+          <div className=" flex flex-col space-y-3 md:space-y-0  md:flex-row md:space-x-5 p-4 md:py-10 md:px-14">
+            <div className="md:w-2/4">
               <h2 className="uppercase font-bold">
                 CUSTOMER SERVICE
 
@@ -240,7 +237,7 @@ const Product = () => {
               </p>
              
             </div>
-            <div className="lg:w-2/4">
+            <div className="md:w-2/4">
               <img src={Product5} alt="" className="" />
             </div>
           </div>
