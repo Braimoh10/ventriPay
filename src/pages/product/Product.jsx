@@ -152,17 +152,15 @@ const Product = () => {
             <div className="bg-[#008080] flex flex-col lg:flex-row space-y-3 lg:space-y-0  lg:space-x-5 p-4 lg:py-10 lg:px-14">
               <div className="lg:w-2/4">
                 <h2 className="uppercase font-bold">
-                  fund your account, make transfers,
+                  FUND YOUR ACCOUNT, MAKE TRANSFERS,
                   <br />
-                  pay bills with ventripay
+                  PAY BILLS WITH VENTRIPAY
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Voluptatem quasi ex harum aperiam adipisci esse?
+                  Transfer funds Quickly, easily, and confidently with our seamless and reliable feature. 
                 </p>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci, est?
+                You can pay for your utility bills as well 
                 </p>
               </div>
 
@@ -182,18 +180,13 @@ const Product = () => {
             </div>
             <div className="lg:w-2/4">
               <h2 className="uppercase font-bold">
-                fund your account, make transfers,
-                <br />
-                pay bills with ventripay
+                GET A VIRTUAL CARD WITH VENTRIPAY
+                
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatem quasi ex harum aperiam adipisci esse?
+              Introducing virtual card for your online payments Enjoy convenience and control. Compatible with popular online platforms.
               </p>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci, est?
-              </p>
+             
             </div>
           </div>
         </div>
@@ -205,18 +198,13 @@ const Product = () => {
           <div className=" flex flex-col space-y-3 lg:space-y-0  lg:flex-row lg:space-x-5 p-4 lg:py-10 lg:px-14">
             <div className="lg:w-2/4">
               <h2 className="uppercase font-bold">
-                fund your account, make transfers,
-                <br />
-                pay bills with ventripay
+                CURRENCY EXCHANGE
+                
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatem quasi ex harum aperiam adipisci esse?
+              Convert your money from one currency to anothet with our  currency exchang feature. Also, you can save your money in foreign currencies with this same feature.
               </p>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci, est?
-              </p>
+              
             </div>
             <div className="lg:w-2/5">
               <img src={Product3} alt="" className="" />
@@ -230,18 +218,12 @@ const Product = () => {
           <div className=" flex flex-col space-y-3 lg:space-y-0  lg:flex-row lg:space-x-5 p-4 lg:py-10 lg:px-14">
             <div className="lg:w-2/4">
               <h2 className="uppercase font-bold">
-                fund your account, make transfers,
-                <br />
-                pay bills with ventripay
+                DATA SECURITY AND PRIVACY
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatem quasi ex harum aperiam adipisci esse?
+              Your security is our top priority. we use bank -grade encryption, two-factor authentication, and strict data protection policies tosafeguard your information. 
               </p>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci, est?
-              </p>
+            
             </div>
             <div className="lg:w-2/5">
               <img src={Product4} alt="" className="" />
@@ -250,18 +232,13 @@ const Product = () => {
           <div className=" flex flex-col space-y-3 lg:space-y-0  lg:flex-row lg:space-x-5 p-4 lg:py-10 lg:px-14">
             <div className="lg:w-2/4">
               <h2 className="uppercase font-bold">
-                fund your account, make transfers,
-                <br />
-                pay bills with ventripay
+                CUSTOMER SERVICE
+
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatem quasi ex harum aperiam adipisci esse?
+              Expert support, always available. reach us 24/7 via phone, email, or chat for prompt assistance.
               </p>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci, est?
-              </p>
+             
             </div>
             <div className="lg:w-2/5">
               <img src={Product5} alt="" className="" />
