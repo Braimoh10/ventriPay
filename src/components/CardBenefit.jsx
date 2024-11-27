@@ -4,7 +4,7 @@ const CardBenefit = ({icon, label}) => {
     <div className="flex items-center gap-2
      bg-[#008080] rounded-lg py-6 px-5 ">
         <img src={icon} alt="" width={50} />
-        <p className="text-white text-md uppercase">{label}</p>
+        <p className="text-white text-sm md:text-md uppercase">{label}</p>
     </div>
   )
 }

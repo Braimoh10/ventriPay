@@ -34,7 +34,6 @@ import {
 
 export const navLinks = [
   { path: "/services", name: "Services" },
-  { path: "/product", name: "Product" },
   { path: "/about-us", name: "About Us" },
   { path: "/blog", name: "Blog" },
 ];

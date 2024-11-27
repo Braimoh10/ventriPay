@@ -6,7 +6,7 @@ const Features = () => {
     <section className="px-3 sm:py-12 py-4">
         <div className="flex flex-col justify-center items-center max-container w-full">
             <div className="max-sm:px-8 px-16 mb-6">
-                <h1 className="text-2xl uppercase text-center">all access in one features</h1>
+                <h1 className="text-md md:text-2xl font-bold uppercase text-center">all access in one features</h1>
                  <hr className="w-44 mx-auto border-[#008080] " />
             </div>
             <div className="">

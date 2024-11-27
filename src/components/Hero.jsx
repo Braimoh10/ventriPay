@@ -1,5 +1,4 @@
 import { heroImg, backgroundImg1 } from "../assets/images";
-import Button from "./Button";
 
 const Hero = () => {
   return (
