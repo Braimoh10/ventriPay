@@ -18,7 +18,7 @@ const NavBar = () => {
       style={{ position: "fixed", width: "100%", backgroundColor: "#fff", height:"70px", zIndex:1000 }}
     >
       <nav className="flex justify-between max-container px-4 md:px-6 items-center">
-        <Link to="/" className="text-[30px]">
+        <Link to="/" className="text-[30px]" onClick={handleMenuToggle}>
           <img src={logo} style={{ height: "50%", width: "70px" }} alt="logo" />
         </Link>
 
@@ -39,18 +39,18 @@ const NavBar = () => {
             href="#"
             className="flex items-center py-3 px-12 text-blue border-2  border-[#003366] rounded-lg uppercase hover:bg-[#003366] hover:text-white"
           >
-            login
+            Get App
           </Link>
-          <Link
+          {/* <Link
             href="#"
             className="flex items-center py-3 px-12 bg-[#003366] rounded-lg text-white uppercase hover:text-[#008080] hover:bg-transparent hover:border-[#FF6600] border-2"
           >
             register
-          </Link>
+          </Link> */}
         </div>
 
         {/* Hamburger icon for mobile view */}
-        <div className="max-xl:block lg:hidden px-2" onClick={handleMenuToggle}>
+        <div className="max-xl:block xl:hidden px-2" onClick={handleMenuToggle}>
           {menuOpen ? (
             <IoMdClose className="text-[30px] text-[#003366] cursor-pointer" />
           ) : (
@@ -83,14 +83,14 @@ const NavBar = () => {
                 href="#"
                 className="w-full flex items-center py-3 px-4 text-blue border-2 border-[#003366] rounded-lg uppercase hover:bg-[#003366] hover:text-white text-center"
               >
-                login
+                Get App
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 className="w-full flex items-center py-3 mb-2 px-4 bg-[#003366]  hover:text-green-500 rounded-lg text-white uppercase text-center"
               >
                 register
-              </Link>
+              </Link> */}
             </div>
           </div>
         )}

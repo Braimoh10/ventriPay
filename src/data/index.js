@@ -33,6 +33,7 @@ import {
 } from "../assets/icons";
 
 export const navLinks = [
+  { path: "/", name: "Home" },
   { path: "/services", name: "Services" },
   { path: "/about-us", name: "About Us" },
   { path: "/blog", name: "Blog" },

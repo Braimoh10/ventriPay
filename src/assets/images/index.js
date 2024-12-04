@@ -18,6 +18,13 @@ import Service5 from './serviceImg5.jpeg'
 import Service6 from './serviceImg6.jpeg'
 import Service7 from './serviceImg7.jpeg'
 import Service8 from './serviceImg8.jpeg'
+import Blog1 from './blogImg1.jpeg'
+import Blog2 from './blogImg2.jpeg'
+import Blog3 from './blogImg3.jpeg'
+import Blog4 from './blogImg4.jpeg'
+import Blog5 from './blogImg5.jpeg'
+import Blog6 from './blogImg6.jpeg'
+import Blog7 from './blogImg7.jpeg'
 export{
     heroImg,
     backgroundImg1,
@@ -38,5 +45,12 @@ export{
     Service5,
     Service6,
     Service7,
-    Service8
+    Service8,
+    Blog1,
+    Blog2,
+    Blog3,
+    Blog4,
+    Blog5,
+    Blog6,
+    Blog7
 }
