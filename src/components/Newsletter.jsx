@@ -1,6 +1,10 @@
+import { useState } from "react"
 
 
 const Newsletter = () => {
+  const [Email, setEmail] = useState("");
+  const [Error, setError]= useState(null)
+
   return (
     <section className="py-5 px-9 ">
        <div className="max-container flex flex-col ">
